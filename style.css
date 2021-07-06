@@ -1,0 +1,167 @@
+/* Common CSS */
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-blue {
+    color: #13BAFB;
+}
+.button {
+    text-decoration: none;
+    background: linear-gradient(50deg, #A3E2FD, #0186F6);
+    padding: 18px 45px;
+    border-radius: 50px;
+    color: white;
+}
+/* Hero Section CSS */
+.hero-sec{
+    overflow: hidden;
+}
+.hero-left,
+.hero-right {
+    width: 45%;
+    float: left;
+    margin-top: 40px;
+}
+.hero-left {
+    margin-top: 110px;
+    padding-left: 5%;
+}
+.hero-left h2 {
+    font-size: 60px;
+    color: #575757;
+}
+.hero-left p {
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 70px;;
+}
+
+.hero-right img {
+    width: 550px;
+    float: right;
+}
+/* About Section CSS */
+.about-sec {
+    display: flex;
+    background-image: url(images/about-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.about-left {
+    width: 50%;
+    float: left;
+}
+.about-left img {
+    width: 450px;
+    margin: auto;
+    display: block;
+}
+.about-right {
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+    margin-right: 10%;
+}
+.about-right h2 {
+    font-size: 40px;
+    color: #707070;
+    
+}
+.about-right p {
+    font-size: 18px;
+    color: #18191F;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+/* Recipies Section CSS */
+.recipies-sec {
+    overflow: hidden;
+}
+.recipies-text-row h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #676767;
+
+}
+.recipies-text-row p {
+    margin: 20px 20%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+
+}
+.receipe-items-row {
+    width: 86%;
+    margin: 60px auto;
+
+}
+.food-item {
+    width: 27%;
+    float: left;
+    overflow: hidden;
+    margin: 0 1%;
+    padding: 2%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    height: 420px;
+    margin-bottom: 30px;
+}
+.food-item img {
+    width: 100%;
+}
+.food-item h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #18191F;
+    margin: 20px 0;
+}
+.food-item p {
+    line-height: 1.4;
+}
+/* Counter Section CSS */
+.count-row {
+    width: 70%;
+    margin: 50px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0 40px;
+}
+.count-item-col h4 {
+    font-size: 48px;
+    color: #18191F;
+    margin-bottom: 0;
+}
+.count-item-col p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.count-item-col {
+    width: 23%;
+    float: left;
+    padding: 0px 5%;
+}
+/* Footer CSS */
+.footer-sec {
+    background-color: #020D15;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.footer-row h4 {
+    text-align : center;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.footer-row p {
+    text-align : center;
+    color: #FFFFFF;
+    font-weight: 300;
+}
